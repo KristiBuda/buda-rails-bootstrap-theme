@@ -2,7 +2,6 @@
   margin-bottom: 0;
   border: none;
 }
-
 #buda-navbar-jumbotron{
   margin-top: 0;
   border-radius: 0;
@@ -29,24 +28,42 @@
 #buda-menu-1-jumbotron,
 #buda-menu-2-jumbotron,
 #buda-menu-3-jumbotron{
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
   font-size: 20px;
   color: #e5dfc5;
-
 }
 
 //#buda-menu-1:hover,
 //#buda-menu-2:hover,
 //#buda-menu-3:hover,
-#buda-menu-1-jumbotron:active,
-#buda-menu-2-jumbotron:active,
-#buda-menu-3-jumbotron:active{
-  color: #A92F41;
-  background-color: #100406;
-}
-
 #buda-menu-1-jumbotron:hover,
 #buda-menu-2-jumbotron:hover,
 #buda-menu-3-jumbotron:hover{
   color: #91C7A9;
+}
+
+#buda-menu-1-jumbotron:active,
+#buda-menu-2-jumbotron:active,
+#buda-menu-3-jumbotron:active{
+  color: #A92F41;
+}
+
+#buda-about-name{
+  font-family: 'Libre Franklin', sans-serif;
+  color: #A92F41;
+}
+
+#buda-about-description{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  color: #A92F41;
+}
+#buda-about-description-first-part{
+  color: #e5dfc5;
+}
+#buda-kristi{
+  -webkit-box-shadow: 0px 0px 29px 1px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 29px 1px rgba(0,0,0,1);
+  box-shadow: 0px 0px 29px 1px rgba(0,0,0,1);
 }
