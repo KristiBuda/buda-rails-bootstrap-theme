@@ -29,6 +29,9 @@
 #chevron-down-wallapaper:hover{
   color: #A92F41;
 }
+.buda-container{
+  margin-top: 300px;
+}
 
 #buda-kristi{
   border: 7px solid #e5dfc5;
@@ -44,4 +47,22 @@
 }
 
 .buda-portfolio-images{
+  padding-top: 200px;
+}
+
+fieldset.scheduler-border {
+    border: 1px dashed #91C7A9 !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: center !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
 }
