@@ -20,15 +20,14 @@
       <div class="container">
         <div class="row">
           <div class="text-center" id="header-text">
-            <h1 style="color: #e5dfc5">Take a step inside my mind</h1>
+            <h1 id="buda-slogan">TAKE A STEP INSIDE MY MIND</h1>
             <i class="fa fa-chevron-down fa-3x" aria-hidden="true" id="chevron-down-wallapaper"></i>
           </div>
         </div>
       </div>
 </div>
 
-<div class="container">
-  <div class="jumbotron buda-jumbotron-cover">
+
     <section class="aboutme">
       <div class="container buda-container">
         <fieldset class="scheduler-border">
@@ -40,10 +39,12 @@
           <div class="text-center">
             <%= image_tag('kristi.jpg', alt: 'Me', class: 'img-circle img-responsive center', id:'buda-kristi')%>
             <h2 id="buda-about-name">Kristi Buda</d2>
+            <hr id="buda-hr"/>
             <p id="buda-about-description">
               <span id="buda-about-description-first-part">Like most developers I spend most of my time hidden behind my computer<br/>
               But obviously thats not all I do</span> click my head to find out more about me!
             </p>
+            <hr id="buda-hr"/>
             <!--TODO about path here  -->
           </div>
        </fieldset>
@@ -72,8 +73,6 @@
        <%=render 'layouts/downicon'%>
      </div>
     </section>
-  </div>
-</div>
 
 <section class="contact buda-contact">
   <div class="jumbotron buda-contact-jumbotron">

@@ -7,11 +7,11 @@
   left top, left bottom,
   color-stop(0%, rgba(0, 0, 0, 0)),
   color-stop(88%, rgba(0, 0, 0, 0)),
-  color-stop(100%, rgba(234, 234, 234, 1))),
+  color-stop(100%, rgba(24, 22, 22, 1))),
   asset-url('wallpaper.jpeg') no-repeat center fixed;
   background-size: cover;
   border: none;
-  padding-top: 0%;
+  // padding-top: 0%;
 }
 
 #header-text{
@@ -20,7 +20,7 @@
 
 #chevron-down-wallapaper{
   margin-top: 30%;
-  color: #EAEAEA;
+  color: #e5dfc5;
 }
 #chevron-down-wallapaper:active,
 #chevron-down-wallapaper:hover{
@@ -28,7 +28,7 @@
 }
 
 #buda-kristi{
-  border: 7px solid #EAEAEA;
+  border: 7px solid #e5dfc5;
   margin: 0 auto;
   width: 200px;
   height: auto;
@@ -96,13 +96,14 @@ legend.scheduler-border {
 
 .buda-contact-jumbotron{
     background-color: #181616;
+    padding-top: 300px;
 }
 .buda-contact{
   background-color: #181616;
 }
 .buda-get-in-touch{
   font-family: 'Indie Flower', cursive;
-  color: #EAEAEA;
+  color: #e5dfc5;
 }
 #buda-hr{
   border: 0;
@@ -135,4 +136,7 @@ legend.scheduler-border {
 }
 .buda-icon-2:active{
   color: #802633;
+}
+.buda-container{
+  padding-top: 300px;
 }
