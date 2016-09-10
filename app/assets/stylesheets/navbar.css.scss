@@ -1,0 +1,52 @@
+.navbar{
+  margin-bottom: 0;
+  border: none;
+}
+
+#buda-navbar-jumbotron{
+  margin-top: 0;
+  border-radius: 0;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+//#navbar-logo-buda,
+#navbar-logo-buda-jumbotron{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+  color: #e5dfc5;
+  margin-right: 6px;
+}
+
+//#navbar-logo-buda:hover,
+#navbar-logo-buda-jumbotron:hover {
+  color: #A92F41;
+}
+
+//#buda-menu-1,
+//#buda-menu-2,
+//#buda-menu-3,
+#buda-menu-1-jumbotron,
+#buda-menu-2-jumbotron,
+#buda-menu-3-jumbotron{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  color: #e5dfc5;
+
+}
+
+//#buda-menu-1:hover,
+//#buda-menu-2:hover,
+//#buda-menu-3:hover,
+#buda-menu-1-jumbotron:active,
+#buda-menu-2-jumbotron:active,
+#buda-menu-3-jumbotron:active{
+  color: #A92F41;
+  background-color: #100406;
+}
+
+#buda-menu-1-jumbotron:hover,
+#buda-menu-2-jumbotron:hover,
+#buda-menu-3-jumbotron:hover{
+  color: #91C7A9;
+}

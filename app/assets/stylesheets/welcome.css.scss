@@ -1,0 +1,25 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.jumbotron{
+  background:url("wallpaper.jpeg") no-repeat center;
+  background-size: cover;
+  border: none;
+  padding-top: 0%;
+
+}
+
+
+
+#header-text{
+  margin-top: 25%;
+}
+
+#chevron-down-wallapaper{
+  margin-top: 30%;
+  color: #e5dfc5;
+}
+#chevron-down-wallapaper:active,
+#chevron-down-wallapaper:hover{
+  color: #A92F41;
+}

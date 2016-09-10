@@ -7,7 +7,9 @@
     <title><%= content_for?(:title) ? yield(:title) : "Buda" %></title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= stylesheet_link_tag "application", :media => "all"%>
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Libre+Franklin" rel="stylesheet">
 
     <!-- For third-generation iPad with high-resolution Retina display: -->
     <!-- Size should be 144 x 144 pixels -->
@@ -37,49 +39,39 @@
     <![endif]-->
   </head>
   <body>
-
-    <div class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Buda</a>
-        <div class="navbar-collapse collapse navbar-responsive-collapse">
-          <ul class="nav navbar-nav">
-            <li><%= link_to "Link1", "/path1"  %></li>
-            <li><%= link_to "Link2", "/path2"  %></li>
-            <li><%= link_to "Link3", "/path3"  %></li>
-          </ul>
-        </div>
+  <div class="buda-navbar-follower">
+  <div class="navbar navbar-default navbar-static-top navbar-inverse" id="buda-navbar-jumbotron">
+    <div class="container">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%=	 link_to 'Buda', root_path, class: 'navbar-brand', id: 'navbar-logo-buda-jumbotron'%>
+      <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav pull-right">
+          <li><%= link_to 'PORTFOLIO', '#', role: 'presentation', id: 'buda-menu-1-jumbotron'%></li>
+          <li><%= link_to 'ABOUT', '#',     role: 'presentation', id: 'buda-menu-2-jumbotron'%></li>
+          <li><%= link_to 'CONTACT', '#',   role: 'presentation', id: 'buda-menu-3-jumbotron'%></li>
+        </ul>
       </div>
     </div>
+  </div>
+  </div>
+    <%= yield %>
 
-    <div class="container">
+    <div class="container buda-footer">
       <div class="row">
         <div class="col-lg-9">
           <%= bootstrap_flash %>
-          <%= yield %>
+          <!--Yield goes here-->
         </div>
-        <div class="col-lg-3">
-          <div class="well sidebar-nav">
-            <h3>Sidebar</h3>
-            <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
-            </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
-      </div><!--/row-->
-
       <footer>
-        <p>&copy; Company 2016</p>
+        <p>&copy; Kristi Buda</p>
       </footer>
 
-    </div> <!-- /container -->
+      </div>
+    </div>
 
   </body>
 </html>

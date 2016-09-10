@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
 gem 'twitter-bootstrap-rails'
+gem 'font-awesome-sass', '~> 4.4.0'
+gem 'jquery-ui-rails'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
