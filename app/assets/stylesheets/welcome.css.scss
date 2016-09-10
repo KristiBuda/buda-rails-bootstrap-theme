@@ -1,17 +1,18 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.jumbotron{
+.buda-jumbotron{
   // background: asset-url('wallpaper.jpeg') no-repeat center;
   background: -webkit-gradient(linear,
   left top, left bottom,
   color-stop(0%, rgba(0, 0, 0, 0)),
   color-stop(88%, rgba(0, 0, 0, 0)),
   color-stop(100%, rgba(37, 33, 32, 1))),
-  asset-url('wallpaper.jpeg') no-repeat center;
+  asset-url('wallpaper.jpeg') no-repeat center fixed;
   background-size: cover;
   border: none;
   padding-top: 0%;
+
 }
 
 
@@ -40,4 +41,7 @@
 }
 #buda-kristi:active{
   border: 7px solid #A92F41;
+}
+
+.buda-portfolio-images{
 }
