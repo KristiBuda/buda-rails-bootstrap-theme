@@ -7,12 +7,11 @@
   left top, left bottom,
   color-stop(0%, rgba(0, 0, 0, 0)),
   color-stop(88%, rgba(0, 0, 0, 0)),
-  color-stop(100%, rgba(37, 33, 32, 1))),
+  color-stop(100%, rgba(234, 234, 234, 1))),
   asset-url('wallpaper.jpeg') no-repeat center fixed;
   background-size: cover;
   border: none;
   padding-top: 0%;
-
 }
 
 #header-text{
@@ -21,7 +20,7 @@
 
 #chevron-down-wallapaper{
   margin-top: 30%;
-  color: #e5dfc5;
+  color: #EAEAEA;
 }
 #chevron-down-wallapaper:active,
 #chevron-down-wallapaper:hover{
@@ -29,7 +28,7 @@
 }
 
 #buda-kristi{
-  border: 7px solid #e5dfc5;
+  border: 7px solid #EAEAEA;
   margin: 0 auto;
   width: 200px;
   height: auto;
@@ -39,10 +38,6 @@
 }
 #buda-kristi:active{
   border: 7px solid #A92F41;
-}
-
-.buda-container{
-  margin-top: 300px;
 }
 
 #buda-kristi{
@@ -73,6 +68,71 @@ legend.scheduler-border {
 }
 
 .buda-portfolio-images{
-  margin:0px !important;
   height: 300px;
+  width: auto;
+}
+
+#buda-portfolio-design-1,
+#buda-portfolio-design-2,
+#buda-portfolio-design-3{
+  margin-bottom: 30px;
+}
+
+.buda-jumbotron-cover{
+  margin-top: 300px;
+  background: #252120;
+  background: -moz-linear-gradient(top, #252120 0%, #312c2b 28%, #383231 46%, #312c2b 68%, #252120 100%);
+  background: -webkit-linear-gradient(top, #252120 0%,#312c2b 28%,#383231 46%,#312c2b 68%,#252120 100%);
+  background: linear-gradient(to bottom, #252120 0%,#312c2b 28%,#383231 46%,#312c2b 68%,#252120 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252120', endColorstr='#252120',GradientType=0 );
+  -webkit-box-shadow: 0px 0px 37px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 37px 5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 37px 5px rgba(0,0,0,0.75);
+}
+
+.buda-container-portfolio{
+  margin-top: 300px;
+}
+
+.buda-contact-jumbotron{
+    background-color: #181616;
+}
+.buda-contact{
+  background-color: #181616;
+}
+.buda-get-in-touch{
+  font-family: 'Indie Flower', cursive;
+  color: #EAEAEA;
+}
+#buda-hr{
+  border: 0;
+  height: 3px;
+  width: 100px;
+  background: #A92F41;
+}
+.buda-icon{
+  color: #A92F41;
+}
+.buda-email{
+  font-family: 'Indie Flower', cursive;
+  display:inline-block;
+  font-size: 20px;
+}
+#buda-other-contacts{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.buda-li{
+  display: inline-block;
+  padding: 14px 16px;
+  color: #A92F41;
+}
+.buda-icon-2:hover{
+  color: #802633;
+}
+.buda-icon-2:active{
+  color: #802633;
 }

@@ -1,3 +1,4 @@
+
 <div class="jumbotron buda-jumbotron">
       <div class="navbar navbar-default navbar-static-top navbar-inverse" id="buda-navbar-jumbotron">
         <div class="container">
@@ -26,58 +27,95 @@
       </div>
 </div>
 
-<section class="aboutme">
-  <div class="container buda-container">
-    <fieldset class="scheduler-border">
-      <legend class="scheduler-border">
+<div class="container">
+  <div class="jumbotron buda-jumbotron-cover">
+    <section class="aboutme">
+      <div class="container buda-container">
+        <fieldset class="scheduler-border">
+          <legend class="scheduler-border">
+              <div class="text-center">
+                   <h2 id="buda-about">ABOUT</h2>
+               </div>
+           </legend>
           <div class="text-center">
-               <h2 id="buda-about">ABOUT</d2>
-           </div>
-       </legend>
-      <div class="text-center">
-        <%= image_tag('kristi.jpg', alt: 'Me', class: 'img-circle img-responsive center', id:'buda-kristi')%>
-        <h2 id="buda-about-name">Kristi Buda</d2>
-        <p id="buda-about-description">
-          <span id="buda-about-description-first-part">Like most developers I spend most of my time hidden behind my computer<br/>
-          But obviously thats not all I do</span> click my head to find out more about me!
-        </p>
-        <!--TODO about path here  -->
-      </div>
-   </fieldset>
-   <%=render 'layouts/downicon'%>
- </div>
-</section>
+            <%= image_tag('kristi.jpg', alt: 'Me', class: 'img-circle img-responsive center', id:'buda-kristi')%>
+            <h2 id="buda-about-name">Kristi Buda</d2>
+            <p id="buda-about-description">
+              <span id="buda-about-description-first-part">Like most developers I spend most of my time hidden behind my computer<br/>
+              But obviously thats not all I do</span> click my head to find out more about me!
+            </p>
+            <!--TODO about path here  -->
+          </div>
+       </fieldset>
+       <%=render 'layouts/downicon'%>
+     </div>
+    </section>
 
+    <section class="aboutme">
+      <div class="container buda-container-portfolio">
+        <fieldset class="scheduler-border">
+          <legend class="scheduler-border">
+              <div class="text-center">
+                   <h2 id="buda-about">PORTFOLIO</h2>
+               </div>
+           </legend>
+            <div class="col-sm-4">
+                  <%= image_tag('design.jpg', alt: 'design', class: 'img-responsive', id:'buda-portfolio-design-1')%>
+            </div>
+            <div class="col-sm-4">
+                  <%= image_tag('android-universe.png', alt: 'design', class: 'img-responsive', id:'buda-portfolio-design-2')%>
+            </div>
+            <div class="col-sm-4">
+                  <%= image_tag('design.jpg', alt: 'design', class: 'img-responsive', id:'buda-portfolio-design-3')%>
+            </div>
+       </fieldset>
+       <%=render 'layouts/downicon'%>
+     </div>
+    </section>
+  </div>
+</div>
 
-
-
-  <section class="portfolio">
-    <div class="container buda-container">
+<section class="contact buda-contact">
+  <div class="jumbotron buda-contact-jumbotron">
+    <div class="container">
       <fieldset class="scheduler-border">
         <legend class="scheduler-border">
-            <div class="text-center">
-                 <h2 id="buda-about">PORTFOLIO</d2>
-             </div>
-         </legend>
-         <div class="row">
-           <div class="col-md-12">
-             <div class="row buda-portfolio-images">
-               <div class="col-sm-4">
-                  <%= image_tag('design.jpg', alt: 'design', class: 'img-responsive center', id:'buda-portfolio-design-1')%>
-               </div>
-               <div class="col-sm-4">
-                  <%= image_tag('android-universe.png', alt: 'design', class: 'img-responsive center', id:'buda-portfolio-design-2')%>
+          <h2 id="buda-about">CONTACT</h2>
+        </legend>
+        <div class="text-center">
+          <hr id="buda-hr"/>
+          <h2 class="buda-get-in-touch">Lets get in touch!</h2>
+          <hr id="buda-hr"/>
+          <p class="buda-get-in-touch">
+            Got any questions or want to hire me? That's awesome! Send me an email
+            and I'll get back at you as soon as possible!
+          </p>
+            <hr id="buda-hr"/>
+            <i class="fa fa-envelope fa-1x buda-icon" aria-hidden="true"></i>
+            <h4 id="buda-about-description-first-part" class="buda-email">budakristi@gmail.com</h4>
+            <hr id="buda-hr"/>
+            <p class="buda-get-in-touch">
+              You can also find me in
+              <div class="text-center">
+                  <ul id="buda-other-contacts">
+                    <li class="buda-li"><a href="https://github.com/KristiBuda" target="_blank">
+                           <i class="fa fa-github-alt fa-4x buda-icon buda-icon-2" aria-hidden="true"></i>
+                         </a>
+                    </li>
+                    <li class="buda-li">
+                      <a href="https://al.linkedin.com/in/budakristi" target="_blank">
+                      <i class="fa fa-linkedin-square fa-4x buda-icon buda-icon-2" aria-hidden="true"></i>
+                      </a>
+                      </li>
+                  </ul>
+                  <hr id="buda-hr"/>
                 </div>
-               <div class="col-sm-4">
-                  <%= image_tag('design.jpg', alt: 'design', class: 'img-responsive center', id:'buda-portfolio-design-3')%>
-               </div>
-             </div>
-            </div>
-           </div>
-     </fieldset>
-     <%=render 'layouts/downicon'%>
+            </p>
+        </div>
+      </fieldset>
     </div>
-  </section>
-
-  <section class="contact">
-  </section>
+  </div>
+  <footer class="buda-footer">
+       <p><i class="fa fa-copyright" aria-hidden="true"></i> Kristi Buda budakristi@gmail.com</p>
+  </footer>
+</section>
