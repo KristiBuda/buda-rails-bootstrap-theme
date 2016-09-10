@@ -15,8 +15,6 @@
 
 }
 
-
-
 #header-text{
   margin-top: 25%;
 }
@@ -28,9 +26,6 @@
 #chevron-down-wallapaper:active,
 #chevron-down-wallapaper:hover{
   color: #A92F41;
-}
-.buda-container{
-  margin-top: 300px;
 }
 
 #buda-kristi{
@@ -46,8 +41,14 @@
   border: 7px solid #A92F41;
 }
 
-.buda-portfolio-images{
-  padding-top: 200px;
+.buda-container{
+  margin-top: 300px;
+}
+
+#buda-kristi{
+  -webkit-box-shadow: 0px 0px 33px 7px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 33px 7px rgba(0,0,0,1);
+  box-shadow: 0px 0px 33px 7px rgba(0,0,0,1);
 }
 
 fieldset.scheduler-border {
@@ -59,10 +60,19 @@ fieldset.scheduler-border {
 }
 
 legend.scheduler-border {
-        font-size: 1.2em !important;
-        font-weight: bold !important;
-        text-align: center !important;
-        width:auto;
-        padding:0 10px;
-        border-bottom:none;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    width:auto;
+    padding:0 10px;
+    border-bottom:none;
+}
+
+.portfolio{
+  padding-top: 150px;
+}
+
+.buda-portfolio-images{
+  margin:0px !important;
+  height: 300px;
 }

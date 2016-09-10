@@ -31,11 +31,12 @@
     <fieldset class="scheduler-border">
       <legend class="scheduler-border">
           <div class="text-center">
-               <h2 id="buda-about-name">Kristi Buda</d2>
+               <h2 id="buda-about">ABOUT</d2>
            </div>
        </legend>
       <div class="text-center">
         <%= image_tag('kristi.jpg', alt: 'Me', class: 'img-circle img-responsive center', id:'buda-kristi')%>
+        <h2 id="buda-about-name">Kristi Buda</d2>
         <p id="buda-about-description">
           <span id="buda-about-description-first-part">Like most developers I spend most of my time hidden behind my computer<br/>
           But obviously thats not all I do</span> click my head to find out more about me!
@@ -43,28 +44,40 @@
         <!--TODO about path here  -->
       </div>
    </fieldset>
-  </div>
-<section>
+   <%=render 'layouts/downicon'%>
+ </div>
+</section>
 
-<section class="portfolio">
-      <div class="container">
-        <div class="text-center buda-portfolio">
-          PORTFOLIO
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="row buda-portfolio-images">
-              <div class="col-sm-4">
-                 <%= image_tag('design.jpg', alt: 'design', class: 'img-responsive center', id:'buda-portfolio-design')%>
-              </div>
-              <div class="col-sm-4">
-                 <%= image_tag('design.jpg', alt: 'design', class: 'img-responsive center', id:'buda-portfolio-design')%>
+
+
+
+  <section class="portfolio">
+    <div class="container buda-container">
+      <fieldset class="scheduler-border">
+        <legend class="scheduler-border">
+            <div class="text-center">
+                 <h2 id="buda-about">PORTFOLIO</d2>
+             </div>
+         </legend>
+         <div class="row">
+           <div class="col-md-12">
+             <div class="row buda-portfolio-images">
+               <div class="col-sm-4">
+                  <%= image_tag('design.jpg', alt: 'design', class: 'img-responsive center', id:'buda-portfolio-design-1')%>
                </div>
-              <div class="col-sm-4">
-                 <%= image_tag('design.jpg', alt: 'design', class: 'img-responsive center', id:'buda-portfolio-design')%>
-              </div>
+               <div class="col-sm-4">
+                  <%= image_tag('android-universe.png', alt: 'design', class: 'img-responsive center', id:'buda-portfolio-design-2')%>
+                </div>
+               <div class="col-sm-4">
+                  <%= image_tag('design.jpg', alt: 'design', class: 'img-responsive center', id:'buda-portfolio-design-3')%>
+               </div>
+             </div>
             </div>
            </div>
-          </div>
-      </div>
-</section>
+     </fieldset>
+     <%=render 'layouts/downicon'%>
+    </div>
+  </section>
+
+  <section class="contact">
+  </section>

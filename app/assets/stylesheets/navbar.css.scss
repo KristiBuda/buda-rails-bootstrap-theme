@@ -48,10 +48,15 @@
 #buda-menu-3-jumbotron:active{
   color: #A92F41;
 }
-
+.buda-portfolio,
+#buda-about,
 #buda-about-name{
   font-family: 'Libre Franklin', sans-serif;
   color: #A92F41;
+}
+
+#buda-about-name{
+  padding: 30px;
 }
 
 #buda-about-description{
@@ -61,9 +66,4 @@
 }
 #buda-about-description-first-part{
   color: #e5dfc5;
-}
-#buda-kristi{
-  -webkit-box-shadow: 0px 0px 29px 1px rgba(0,0,0,1);
-  -moz-box-shadow: 0px 0px 29px 1px rgba(0,0,0,1);
-  box-shadow: 0px 0px 29px 1px rgba(0,0,0,1);
 }
