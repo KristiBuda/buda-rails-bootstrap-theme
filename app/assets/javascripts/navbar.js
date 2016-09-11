@@ -2,8 +2,8 @@ function getScreenSize() {
   var width = parseInt($(window).width());
 
   if(width <= 800){
-    // $('#buda-navbar-jumbotron').fadeOut("slow");
-    // $('.buda-navbar-follower').fadeIn("slow");
+    $('#buda-navbar-jumbotron').fadeIn("slow");
+    $('.buda-navbar-follower').fadeOut("slow");
   }
   else if(width > 800){
     $('#buda-navbar-jumbotron').fadeIn("slow");
@@ -23,7 +23,7 @@ $(document).ready(function() {
     if ($(window).scrollTop() < 0) {
       $('.navbar').removeClass('navbar-fixed-top');
     }
-    if($(window).scrollTop() >= 150){
+    if($(window).scrollTop() >= 100){
       $('#buda-navbar-jumbotron').fadeOut("slow");
       $('.buda-navbar-follower').fadeIn("slow");
     }
