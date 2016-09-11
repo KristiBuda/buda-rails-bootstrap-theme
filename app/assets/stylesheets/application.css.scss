@@ -18,17 +18,36 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-.buda-navbar-follower{
-  visibility: hidden;
-  position: absolute;
+#buda-navbar-follower-jumbotron{
+  background-color: white;
+}
+#navbar-logo-buda-follower-jumbotron{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+  margin-right: 6px;
+  color: #181616;
+}
+#buda-menu-follower-jumbotron{
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #181616;
+}
+
+.navbar-default .navbar-toggle .buda-icon-bar{
+  background-color: #181616;
+}
+.navbar-default .buda-icon-bar-background:active{
+  background-color: #A92F41;
+}
+.navbar-default .buda-icon-bar-background:hover{
+  background-color: #A92F41;
 }
 
 body{
   background-color: #181616;
 }
-//.buda-footer{
-//  background-color: 252120;
-//}
+
 .buda-footer{
   background-color: #181616;
 }
