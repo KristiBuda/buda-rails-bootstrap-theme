@@ -1,5 +1,16 @@
-$("#chevron-down-wallapaper").click(function() {
-    var offset = 20;
-    $('html, body').animate({
-        scrollTop: $("#buda-about").offset().top}, 2000);
+$(document).ready(function(){
+  $('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 10000);
+       return false;
+      }
+    }
+  });
 });

@@ -15,15 +15,23 @@
         </div>
     </div>
 </div> -->
+
 <div class="jumbotron buda-jumbotron">
     <div class="container">
         <div class="row">
             <div class="text-center" id="header-text">
                 <h1 id="buda-slogan">TAKE A STEP INSIDE MY MIND</h1>
-                <i class="fa fa-chevron-down fa-3x down-1" aria-hidden="true" id="chevron-down-wallapaper"></i>
+                <span id="down-1">
+                   <a id="down-1" href="#down1">
+                     <i class="fa fa-chevron-down fa-3x" aria-hidden="true" id="chevron-down-wallapaper"></i>
+                   </a>
+                 </span>
             </div>
         </div>
     </div>
+</div>
+
+<div id="down1">
 </div>
 
 <section class="aboutme">
@@ -47,9 +55,18 @@
                 <!--TODO about path here  -->
             </div>
         </fieldset>
-        <%=render 'layouts/downicon'%>
     </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a id="down-2" href="#down2">
+          <i class="fa fa-chevron-down fa-3x" aria-hidden="true" id="chevron-down"></i>
+        </a>
+       </div>
+     </div>
 </section>
+
+<div id="down2">
+</div>
 
 <section class="aboutme">
     <div class="container buda-container-portfolio">
@@ -69,9 +86,18 @@
                 <%= image_tag('design.jpg', alt: 'design', class: 'img-responsive', id:'buda-portfolio-design-3')%>
             </div>
         </fieldset>
-        <%=render 'layouts/downicon'%>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a id="down-3" href="#down3">
+             <i class="fa fa-chevron-down fa-3x" aria-hidden="true" id="chevron-down"></i>
+            </a>
+           </div>
+         </div>
     </div>
 </section>
+
+<div id="down3">
+</div>
 
 <section class="contact buda-contact">
     <div class="jumbotron buda-contact-jumbotron">
