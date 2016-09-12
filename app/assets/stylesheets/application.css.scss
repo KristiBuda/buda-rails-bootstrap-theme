@@ -52,3 +52,27 @@ body{
 .buda-footer{
   background-color: #181616;
 }
+
+.buda-link-1,
+.buda-link-2,
+.buda-link-3{
+  position: relative;
+}
+
+.buda-link-1:after,
+.buda-link-2:after,
+.buda-link-3:after{
+  content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 0%;
+border-bottom: 5px solid #A92F41;;
+transition: 0.4s
+}
+
+.buda-link-1:hover:after,
+.buda-link-2:hover:after,
+.buda-link-3:hover:after {
+  width: 100%;
+}
